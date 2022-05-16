@@ -1,0 +1,49 @@
+unit View.Form1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TCalcularSalario = class(TForm)
+    calcular: TButton;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    DescontoINSS: TLabel;
+    DescontoIRRF: TLabel;
+    Edit3: TEdit;
+    SalarioLiquido: TLabel;
+    Edit4: TEdit;
+    procedure calcularClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  CalcularSalario: TCalcularSalario;
+
+implementation
+
+{$R *.dfm}
+
+uses Classes.trabalhador;
+
+procedure TCalcularSalario.calcularClick(Sender: TObject);
+var
+  lTrabalhador : TTrabalhador;
+  ValorINSSFormatado, ValorIRRFFormatado: double;
+begin
+  lTrabalhador := TTrabalhador.Create;
+  lTrabalhador.Salario := StrToFloat(Edit1.Text);
+  ShowMessage(FloatToStr(lTrabalhador.CalcularINSS));
+  ValorINSSFormatado := StrToFloat(FormatFloat('#0.00',lTrabalhador.CalcularINSS));
+  ValorIRRFFormatado := lTrabalhador.CalcularIRRF;
+//
+  Edit2.Text := FloatToStr(valorINSSFormatado);
+  Edit3.Text := FloatToStr(lTrabalhador.CalcularIRRF);
+end;
+end.
