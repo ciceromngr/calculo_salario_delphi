@@ -16,6 +16,7 @@ type
     Edit3: TEdit;
     SalarioLiquido: TLabel;
     Edit4: TEdit;
+    DigiteValorSalarioBruto: TLabel;
     procedure calcularClick(Sender: TObject);
   private
     { Private declarations }

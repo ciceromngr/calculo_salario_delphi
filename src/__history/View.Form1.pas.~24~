@@ -35,14 +35,16 @@ uses Classes.trabalhador;
 procedure TCalcularSalario.calcularClick(Sender: TObject);
 var
   lTrabalhador : TTrabalhador;
-  ValorINSSFormatado, ValorIRRFFormatado: double;
+  ValorINSSFormatado, ValorIRRFFormatado, ValorLiquidoSalarioFormatado: double;
 begin
   lTrabalhador := TTrabalhador.Create;
   lTrabalhador.Salario := StrToFloat(Edit1.Text);
   ValorINSSFormatado := StrToFloat(FormatFloat('#0.00',lTrabalhador.CalcularINSS));
-//  ValorIRRFFormatado := lTrabalhador.CalcularIRRF;
+  ValorIRRFFormatado := StrToFloat(FormatFloat('#0.00',lTrabalhador.CalcularIRRF));
+  ValorLiquidoSalarioFormatado := StrToFloat(FormatFloat('#0.00',lTrabalhador.SalarioLiquido));
 
   Edit2.Text := FloatToStr(valorINSSFormatado);
-  Edit3.Text := FloatToStr(lTrabalhador.CalcularIRRF);
+  Edit3.Text := FloatToStr(ValorIRRFFormatado);
+  Edit4.Text := FloatToStr(ValorLiquidoSalarioFormatado);
 end;
 end.
