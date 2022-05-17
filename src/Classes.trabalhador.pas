@@ -61,7 +61,7 @@ var
 begin
   ValorINSS := CalcularINSS;
   ValorIRRF := CalcularIRRF;
-  ResultadoSalarioLiquido := Self.FSalario - (ValorINSS - ValorIRRF);
+  ResultadoSalarioLiquido := Self.FSalario - ValorINSS - ValorIRRF;
   Result := ResultadoSalarioLiquido;
 end;
 

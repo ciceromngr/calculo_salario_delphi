@@ -2,11 +2,11 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2022/05/13 11:17:19.000.303,=C:\Users\Cicero Romao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/05/16 13:02:37.799,=C:\Users\Cicero Romao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/05/16 13:04:33.642,D:\GIT\PROJECTS_DELPHI\CALCULO_SALARIO\src\View.Form1.dfm=C:\Users\Cicero Romao\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2022/05/16 13:04:33.642,D:\GIT\PROJECTS_DELPHI\CALCULO_SALARIO\src\View.Form1.pas=C:\Users\Cicero Romao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/05/16 13:04:56.100,=C:\Users\Cicero Romao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/05/16 13:05:18.432,D:\GIT\PROJECTS_DELPHI\CALCULO_SALARIO\src\Classes.trabalhador.pas=C:\Users\Cicero Romao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/05/16 14:46:09.038,D:\GIT\PROJECTS_DELPHI\CALCULO_SALARIO\Project1.dproj=C:\Users\Cicero Romao\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/05/16 13:02:37.000.799,=C:\Users\Cicero Romao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/16 13:04:33.000.642,C:\Users\Cicero Romao\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\GIT\PROJECTS_DELPHI\CALCULO_SALARIO\src\View.Form1.pas</Transaction>
+    <Transaction>2022/05/16 13:04:33.000.642,C:\Users\Cicero Romao\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\GIT\PROJECTS_DELPHI\CALCULO_SALARIO\src\View.Form1.dfm</Transaction>
+    <Transaction>2022/05/16 13:04:56.000.100,=C:\Users\Cicero Romao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/16 13:05:18.000.432,C:\Users\Cicero Romao\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\GIT\PROJECTS_DELPHI\CALCULO_SALARIO\src\Classes.trabalhador.pas</Transaction>
+    <Transaction>2022/05/16 14:46:09.000.038,C:\Users\Cicero Romao\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\GIT\PROJECTS_DELPHI\CALCULO_SALARIO\Project1.dproj</Transaction>
   </Transactions>
 </BorlandProject>
